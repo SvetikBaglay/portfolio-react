@@ -18,6 +18,7 @@ import useSubmit from "../hooks/useSubmit";
 import {useAlertContext} from "../context/alertContext";
 
 const LandingSection = () => {
+  console.log('ContactSection')
   const {isLoading, response, submit} = useSubmit();
   const { onOpen } = useAlertContext();
 

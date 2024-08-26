@@ -4,6 +4,7 @@ import { Box, Heading } from "@chakra-ui/react";
 import Card from "./Card";
 
 const projects = [
+
   {
     title: "React Space",
     description:
@@ -31,6 +32,7 @@ const projects = [
 ];
 
 const ProjectsSection = () => {
+    console.log('ProjectSection')
   return (
     <FullScreenSection
       backgroundColor="#14532d"

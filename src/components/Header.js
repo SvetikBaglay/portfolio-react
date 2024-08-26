@@ -36,6 +36,7 @@ const socials = [
 
 const Header = () => {
   const handleClick = (anchor) => () => {
+    console.log('anchor ', anchor)
     const id = `${anchor}-section`;
     const element = document.getElementById(id);
     if (element) {
@@ -99,8 +100,8 @@ const Header = () => {
           </nav>
           <nav>
             <HStack spacing={8}>
-              <a href="/projects" onClick={handleClick}>Projects</a>
-              <a href="/contact-me">Contact me</a>
+              <a href="/#projects"  onClick={handleClick}>Projects</a>
+              <a href="/#contact-me" id="contactme-section" onClick={handleClick}>Contact me</a>
               
               {/* Add links to Projects and Contact me section */}
             </HStack>
