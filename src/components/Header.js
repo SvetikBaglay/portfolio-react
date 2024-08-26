@@ -32,6 +32,8 @@ const socials = [
   },
 ];
 
+
+
 const Header = () => {
   const handleClick = (anchor) => () => {
     const id = `${anchor}-section`;
@@ -64,7 +66,36 @@ const Header = () => {
           alignItems="center"
         >
           <nav>
-            {/* Add social media links based on the `socials` data */}
+            <ul>
+              <li>
+                <a href="mailto: hello@example.com">
+                  <FontAwesomeIcon icon={faEnvelope} />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com">
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+               
+              </li>
+              <li>
+                <a href="https://medium.com">
+                  <FontAwesomeIcon icon={faMedium} />
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com">
+                  <FontAwesomeIcon icon={faStackOverflow} />
+                </a>
+              </li>
+            </ul>
+          
+          
           </nav>
           <nav>
             <HStack spacing={8}>
