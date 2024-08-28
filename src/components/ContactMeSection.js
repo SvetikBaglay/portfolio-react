@@ -47,7 +47,6 @@ const LandingSection = () => {
   useEffect(() => {
 
     if (response) {
-        // console.log('response', response.type)
         onOpen(response.type, response.message);
         if (response.type === 'success') {
           formik.resetForm()

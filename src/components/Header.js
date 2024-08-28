@@ -66,7 +66,6 @@ const Header = () => {
 
 
   const handleClick = (anchor) => () => {
-    console.log('anchor ', anchor)
     const id = `${anchor}-section`;
     const element = document.getElementById(id);
     if (element) {

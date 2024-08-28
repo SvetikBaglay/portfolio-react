@@ -32,7 +32,7 @@ const projects = [
 ];
 
 const ProjectsSection = () => {
-    console.log('ProjectSection')
+
   return (
     <FullScreenSection
       backgroundColor="#14532d"
